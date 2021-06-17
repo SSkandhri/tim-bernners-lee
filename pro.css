@@ -1,0 +1,77 @@
+.profile{
+    width: 175px;
+    border-radius: 50%;
+
+}
+#welcome{
+    background: linear-gradient(#f41ad4 0%,#1aa8f4 100%,#02d66f 20%);
+    z-index:9;
+}
+body{
+    text-align: center;
+}
+.line{
+    background-color: black;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.menu{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    background-color:rgba(139, 139, 216, 0.918) ;
+    z-index:10;
+}
+.links{
+   
+    font-size: 20px;
+    color: rgb(251, 9, 9);
+   display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+
+
+}
+
+
+.links:hover{
+    background-color: blue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article:hover{
+
+    background-color: darkblue;
+}  
+
+.contact_1 a{
+
+    color: blue;
+    text-shadow: none;
+
+}
+
+.contact_1 h3{
+    display: inline;
+}
+#contact iframe{
+    margin-top: 50px;
+}
+
+#contact{
+    background-color: crimson;
+}
+
+
